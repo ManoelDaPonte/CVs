@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Resume/CV
+% XeLaTeX Template
+% Detailed resume, English version
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm}
+
+\fontdir[fonts/]
+
+% Color for highlights
+\definecolor{myblue}{HTML}{0066CC}
+\colorlet{awesome}{myblue}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\name{Manoel}{Da Ponte}
+\address{6 chemin de la Bovarde, 1091 Grandvaux, Switzerland}
+\mobile{(+33) 6 82 69 71 32}
+
+\email{daponte.manoel@gmail.com}
+\homepage{manoel-daponte.com}
+\linkedin{manoel-da-ponte-4092ab139}
+\github{ManoelDaPonte}
+
+\position{AI Engineer{\enskip\cdotp\enskip}Data Engineer}
+\quote{AI and data engineer, co-founder of WiseTwin, where I designed and shipped LLM agents, RAG pipelines and a multitenant SaaS platform. Previously data engineer at TotalEnergies in Denmark and data scientist at CGI. French citizen (EU/EFTA national), based in Switzerland.}
+
+\makecvfooter{\today}{Manoel Da Ponte~~~·~~~Resume}{\thepage}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\makecvheader
+
+%----------------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%----------------------------------------------------------------------------------------
+
+\input{cv-sections/en/skills.tex}
+\input{cv-sections/en/experience.tex}
+\input{cv-sections/en/education.tex}
+\input{cv-sections/en/projects.tex}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

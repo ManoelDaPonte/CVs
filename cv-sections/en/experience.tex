@@ -1,0 +1,88 @@
+%----------------------------------------------------------------------------------------
+%	SECTION TITLE
+%----------------------------------------------------------------------------------------
+
+\cvsection{Work Experience}
+
+%----------------------------------------------------------------------------------------
+%	SECTION CONTENT
+%----------------------------------------------------------------------------------------
+
+\begin{cventries}
+
+%------------------------------------------------
+
+\cventry
+{Co-founder \& Lead Developer} % Job title
+{\href{https://www.wisetwin.eu}{WiseTwin {\tiny\textcolor{black}{\faExternalLink}}}} % Organization
+{Dunkirk, France (remote)} % Location
+{March 2024 - Present} % Date(s)
+{ % Description(s) of tasks/responsibilities
+\begin{cvitems}
+\item {Designed and built a multitenant SaaS platform for industrial safety training, spanning three products (immersive 3D training, document-based courses, prevention tours): 80\,000 lines of TypeScript, 124 API routes}
+\item {Built an HSE AI copilot: LLM agent (Claude) with 12 tools, agentic loop implemented without a framework, SSE streaming, sensitive actions gated by human confirmation}
+\item {Production RAG pipeline: embeddings and pgvector similarity search over 62\,726 industrial accidents from the French public ARIA database, with tenant isolation enforced by CI tests}
+\item {Automated course generation from PowerPoint: Whisper transcription, multimodal LLM writing, quiz questions verified by a second model (LLM-as-judge)}
+\item {Web-based 3D editors in production: Gaussian Splatting (PlayCanvas, GPU selection via custom GLSL shaders) and photorealistic 3D maps (Google Maps 3D, geolocated GLB models)}
+\item {Security and compliance: enterprise SSO, TOTP MFA, xAPI/cmi5 and Qualiopi exports; per-organization AI cost governance (token tracking, budgets, quotas)}
+\item {Infrastructure: Azure Container Apps, Container Registry and Blob Storage, GitHub Actions CI/CD, Vercel, Neon PostgreSQL}
+\item {Technologies: Python, FastAPI, TypeScript, Next.js/React, Claude (Anthropic), OpenAI, pgvector, PostgreSQL, Prisma, Docker, Azure}
+\end{cvitems}
+}
+
+\vspace{1.5em}
+
+%------------------------------------------------
+
+\cventry
+{Co-founder \& Lead Developer} % Job title
+{Bootstrap-Now} % Organization
+{Toulouse, France} % Location
+{March 2024 - 2025} % Date(s)
+{ % Description(s) of tasks/responsibilities
+\begin{cvitems}
+\item {SaaS platform supporting new entrepreneurs: business opportunity discovery through multi-channel data aggregation and AI-assisted business plan generation}
+\item {Technologies: Next.js, Node.js, PostgreSQL, Prisma, OpenAI API, Vercel}
+\end{cvitems}
+}
+\vspace{1.5em}
+
+%------------------------------------------------
+
+\cventry
+{Data Engineer} % Job title
+{TotalEnergies} % Organization
+{Esbjerg, Denmark} % Location
+{March 2022 - February 2024} % Date(s)
+{ % Description(s) of tasks/responsibilities
+\begin{cvitems}
+\item {Delivered end-to-end data projects in small teams (1 to 3 people), covering data management, backend and frontend}
+\item {Accident prevention solution: IoT data extraction, NLP analysis of incident reports, centralized data warehouse and LLM fine-tuning}
+\item {Invoice control system combining computer vision and predictive analysis for procurement optimization}
+\item {Offshore IoT architecture: data warehouse, anomaly detection, Prefect monitoring and automated alerting}
+\item {Lightweight tools for large-scale SAP data extraction used by business teams}
+\item {Application deployments on Azure and on-premise through CI/CD pipelines}
+\item {Technologies: Python, Azure, SQL, NLP, Computer Vision, IoT, Prefect, SAP, React}
+\end{cvitems}
+}
+\vspace{1.5em}
+
+%------------------------------------------------
+
+\cventry
+{Data Scientist} % Job title
+{CGI} % Organization
+{Toulouse, France} % Location
+{July 2020 - March 2022} % Date(s)
+{ % Description(s) of tasks/responsibilities
+\begin{cvitems}
+\item {Chatbot for technical documentation access, built on indexing and semantic search (Elasticsearch)}
+\item {Cross-system data migration solution on AWS}
+\item {Behavioral analytics and personalized recommendations to improve user journeys}
+\item {Technologies: Python, AWS, NLP, Elasticsearch, SQL, REST APIs}
+\end{cvitems}
+}
+
+%------------------------------------------------
+
+\end{cventries}

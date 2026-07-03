@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Awesome Resume/CV
 % XeLaTeX Template
-% Version 1.3 (30/3/2020)
+% CV une page, version française
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[11pt, a4paper]{awesome-cv}
@@ -11,8 +11,7 @@
 \fontdir[fonts/]
 
 % Color for highlights
-% \colorlet{awesome}{awesome-skyblue}
-\definecolor{myblue}{HTML}{0066CC} % Un bleu plus foncé et lisible
+\definecolor{myblue}{HTML}{0066CC}
 \colorlet{awesome}{myblue}
 
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -22,33 +21,42 @@
 %----------------------------------------------------------------------------------------
 
 \name{Manoel}{Da Ponte}
-\address{390 route de Saint Simon, Toulouse, France}
+\address{6 chemin de la Bovarde, 1091 Grandvaux, Suisse}
 \mobile{(+33) 6 82 69 71 32}
 
 \email{daponte.manoel@gmail.com}
 \homepage{manoel-daponte.com}
 \linkedin{manoel-da-ponte-4092ab139}
+\github{ManoelDaPonte}
 
-\position{Full Stack Engineer}
-\quote{Ingénieur full-stack et data scientist avec expérience internationale, je combine expertise technique et vision business pour développer des solutions analytiques innovantes. Capacité éprouvée à concevoir des applications end-to-end répondant précisément aux besoins métiers, avec une approche orientée résultats et une affinité pour les environnements dynamiques.}
+\position{AI Engineer{\enskip\cdotp\enskip}Data Engineer}
+\quote{Ingénieur IA et data, cofondateur de WiseTwin : agents LLM, pipelines RAG et SaaS multitenant en production. Nationalité française (ressortissant UE/AELE), domicilié en Suisse.}
 
-\makecvfooter{\today}{Manoel Da Ponte~~~·~~~Résumé}{\thepage}
+\makecvfooter{\today}{Manoel Da Ponte~~~·~~~CV}{\thepage}
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
+
 \makecvheader
 
 %----------------------------------------------------------------------------------------
+%	NOTE DE RÉFÉRENCE AU SITE WEB
+%----------------------------------------------------------------------------------------
+
+\begin{flushright}
+{\websitelinkstyle{Pour plus d'informations et des exemples de projets, visitez \href{https://manoel-daponte.com}{manoel-daponte.com} \faExternalLink}}
+\end{flushright}
+
+\vspace{0.1cm}
+
+%----------------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
 
-\input{cv-sections/skills.tex}
-\input{cv-sections/experience.tex}
-\input{cv-sections/education.tex}
-\input{cv-sections/projects.tex}
-
-%----------------------------------------------------------------------------------------
+% Version condensée pour tenir sur une page
+\input{cv-sections/fr/skills-onepage.tex}
+\input{cv-sections/fr/experience-onepage.tex}
+\input{cv-sections/fr/education-onepage.tex}
 
 \end{document}
